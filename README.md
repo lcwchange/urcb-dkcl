@@ -1,1 +1,25 @@
-# urcb-dkcl
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>贷款资料提交</title>
+</head>
+<body>
+  <h2>客户信息填写</h2>
+  <form action="https://formspree.io/f/你的ID" method="POST">
+    <label>姓名：</label><br>
+    <input type="text" name="name" required><br><br>
+
+    <label>电话：</label><br>
+    <input type="text" name="phone" required><br><br>
+
+    <label>楼盘项目：</label><br>
+    <input type="text" name="project" required><br><br>
+
+    <label>补充信息：</label><br>
+    <textarea name="message"></textarea><br><br>
+
+    <button type="submit">提交信息</button>
+  </form>
+</body>
+</html>
